@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class NextLevelTrigger : MonoBehaviour
 {
     public string LevelName;
+    public int spectrum;
     //public int LevelIndex;
 
     // Start is called before the first frame update
@@ -14,9 +15,11 @@ public class NextLevelTrigger : MonoBehaviour
 
     }
 
+
     // Update is called once per frame
-    void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
+        PointManager.instance.AddPoint(spectrum);
         //Debug.Log("Collision Detected");
         if (other.gameObject.tag == "Player")
             SceneManager.LoadScene(LevelName);
