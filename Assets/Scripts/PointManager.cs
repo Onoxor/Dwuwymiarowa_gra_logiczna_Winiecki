@@ -6,11 +6,10 @@ using UnityEngine.SceneManagement;
 public class PointManager : MonoBehaviour
 {
     public static PointManager instance;
-
-    private int altruism = 0;
-    private int conformism = 0;
-    private int rationalism = 0;
-    private int courage = 0;
+    public int altruism = 0;
+    public int conformism = 0;
+    public int rationalism = 0;
+    public int courage = 0;
 
     private void Awake()
     {
