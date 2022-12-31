@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 31
+  controlID: 90
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 58
+  controlID: 96
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 59
+  controlID: 97
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1020,22 +1020,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/menu
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 85
   m_LastFolders:
-  - Assets/menu
+  - Assets/Scripts
   m_LastFoldersGridSize: 85
   m_LastProjectPath: "E:\\GitRepo\\In\u017Cynierka\\Dwuwymiarowa_gra_logiczna_Winiecki"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 101}
-    m_SelectedIDs: dc660000
-    m_LastClickedID: 26332
-    m_ExpandedIDs: 00000000686600006a6600006c6600006e66000070660000726600007466000076660000786600007a6600007c6600007e660000806600008266000000ca9a3b
+    scrollPos: {x: 0, y: 197}
+    m_SelectedIDs: a8660000
+    m_LastClickedID: 26280
+    m_ExpandedIDs: 000000002c6600002e66000030660000326600003466000036660000386600003a6600003c6600003e6600004066000042660000446600004666000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1063,7 +1063,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000686600006a6600006c6600006e66000070660000726600007466000076660000786600007a6600007c6600007e6600008066000082660000
+    m_ExpandedIDs: 000000002c6600002e66000030660000326600003466000036660000386600003a6600003c6600003e66000040660000426600004466000046660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000a630000686300008e840000606100007e6100006864000078640000746c000094810000268a0000129000003a650000648000007a640000c46c0000b2220100fe890000b2650000926b0000dc6b000062690000a4970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1191,9 +1191,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ec660000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c6cfffffb8d0ffff94d1ffff6ed2ffff4ed3ffff32d4ffff30d5ffffbad5ffff9ad6ffff78d7ffff66d8ffff48d9ffff24daffffaedaffff8cdbffff72dcffffa0e3fffface4ffff56e5fffff0e5ffff6ae9ffffc8f9ffff26fbffffc468000066a30000a0a4000024a9000060aa000090ac00004aae00007aaf0000aab00000ecb10000b0b300000ab500001cb6000070b70000aab80000e4b90000
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
