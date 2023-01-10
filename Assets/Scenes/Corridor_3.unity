@@ -325,22 +325,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1549024173}
   lines:
-  - A no racja!
+  - "A, no przecie\u017C!"
   - "M\xF3j niesamowity zestaw poszukiwacza przyg\xF3d!"
   - "Ju\u017C prawie zapomnia\u0142em jak wygl\u0105da\u0142."
-  - "Tak jakby si\u0119 teraz zastanowi\u0107 to jednak ju\u017C wiem dlaczego w
+  - "Tak jakby si\u0119 teraz zastanowi\u0107, to jednak wiem ju\u017C dlaczego w
     pewnym momencie ludzie przestali go wybiera\u0107."
   - "Dzi\u0119kuj\u0119, \u017Ce pozwoli\u0142e\u015B mi go sobie przypomnie\u0107."
   - "Hmm, mo\u017Ce zmotywuje mnie to do aktualizacji zasad mojej gry..."
-  - "Tak czy siak, fajnie \u017Ce wybra\u0142e\u015B w\u0142a\u015Bnie t\u0119 opcj\u0119."
-  - "Tylko martwe ryby p\u0142yn\u0105 z pr\u0105dem co nie?"
+  - "Tak czy inaczej mi\u0142o mi, \u017Ce wybra\u0142e\u015B w\u0142a\u015Bnie t\u0119
+    opcj\u0119."
+  - "Tylko martwe ryby p\u0142yn\u0105 z pr\u0105dem, czy\u017C nie?"
   - "Jedynie mo\u017Ce tw\xF3j bliski nie za bardzo b\u0119dzie mia\u0142 co zrobi\u0107
     z zestawem poszukiwacza."
   - Ale nagroda to nagroda.
   - "Mam nadziej\u0119, \u017Ce nie jeste\u015B z\u0142y."
   - "Zobaczymy co powiesz na nast\u0119pny dylemat."
   - "Ju\u017C nie mog\u0119 si\u0119 doczeka\u0107."
-  - "No zmykaj na g\xF3re. Raz raz!"
+  - "No, zmykaj na g\xF3re. Nie mamy ca\u0142ej wieczno\u015Bci!"
   textSpeed: 0.03
 --- !u!114 &297213584
 MonoBehaviour:
@@ -605,7 +606,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 31
   m_Sprite: {fileID: 2084210494, guid: e1bd64429c519d744b16ff247f9113a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -879,7 +880,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1307345206, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
+  m_Sprite: {fileID: -797789243, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -923,7 +924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1261074822
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1008,6 +1009,7 @@ GameObject:
   - component: {fileID: 1274672471}
   - component: {fileID: 1274672470}
   - component: {fileID: 1274672469}
+  - component: {fileID: 1274672473}
   m_Layer: 0
   m_Name: Lucek
   m_TagString: Untagged
@@ -1112,6 +1114,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1274672473
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274672468}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1}
+  serializedVersion: 2
+  m_Radius: 0.8
 --- !u!1 &1330643867
 GameObject:
   m_ObjectHideFlags: 0

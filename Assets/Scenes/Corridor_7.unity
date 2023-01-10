@@ -324,10 +324,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1549024173}
   lines:
-  - "Noo, nie ma co nadstawia\u0107 g\u0142owy, nawet takiej nie\u017Cywej, co nie?"
+  - "No, nie ma co nadstawia\u0107 g\u0142owy, nawet takiej nie\u017Cywej, co nie?"
   - "Tutaj b\u0119dziesz bezpieczny."
   - "Tym oto sposobem dotarli\u015Bmy do ostatniego aktu naszej ma\u0142ej podr\xF3\u017Cy."
-  - "Za nast\u0119pnymi drzwiami czeka na ciebie odpowied\u017A czy poradzi\u0142e\u015B
+  - "Za nast\u0119pnymi drzwiami czeka na ciebie odpowied\u017A, czy poradzi\u0142e\u015B
     sobie z tym co dla ciebie przygotowa\u0142em."
   - "Le\u0107, mam nadzieje \u017Ce nie b\u0119dziesz t\u0119skni\u0107."
   textSpeed: 0.03
@@ -616,7 +616,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1307345206, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
+  m_Sprite: {fileID: -797789243, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -660,7 +660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1222862329
 RectTransform:
   m_ObjectHideFlags: 0
@@ -745,6 +745,7 @@ GameObject:
   - component: {fileID: 1274672471}
   - component: {fileID: 1274672470}
   - component: {fileID: 1274672469}
+  - component: {fileID: 1274672473}
   m_Layer: 0
   m_Name: Lucek
   m_TagString: Untagged
@@ -849,6 +850,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1274672473
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274672468}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1}
+  serializedVersion: 2
+  m_Radius: 0.8
 --- !u!1 &1330643867
 GameObject:
   m_ObjectHideFlags: 0

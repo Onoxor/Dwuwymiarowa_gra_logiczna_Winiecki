@@ -329,18 +329,18 @@ MonoBehaviour:
   - Poznaj tomka.
   - "Jest tutaj rezydentem ju\u017C od jakiego\u015B czasu."
   - "Trafi\u0142 tutaj tak samo jak ty."
-  - "W hipotetycznej sytuacji zostali\u015Bcie postawieni przed zarzutem morderstwa."
+  - "W hipotetycznej sytuacji zostali\u015Bcie postawiono wam zarzut morderstwa."
   - "Mo\u017Cecie przyzna\u0107 si\u0119 do winy albo te\u017C nie."
-  - "Je\u015Bli obaj si\u0119 przyznacie to dostaniecie obaj wyrok 2 lat."
-  - "Je\u015Bli obaj odrzucicie zarzuty to dostaniecie 10 lat wyroku"
+  - "Je\u015Bli obaj si\u0119 przyznacie, dostaniecie obaj wyrok 2 lat."
+  - "Je\u015Bli obaj odrzucicie zarzuty to dostaniecie 10 lat wyroku."
   - "Je\u015Bli jednak przyzna si\u0119 tylko jeden to dostanie 15 lat odsiadki,
     podczas gdy drugi b\u0119dzie wolny jak ptak."
-  - "Wybieraj\u0105c lewe drzwi przyznasz si\u0119 do winy."
-  - "Wybieraj\u0105c prawe odrzucisz zarzuty."
+  - "Wybieraj\u0105c lewe drzwi, przyznasz si\u0119 do winy."
+  - "Wybieraj\u0105c prawe, odrzucisz zarzuty."
   - "Tomek m\xF3wi \u017Ce ch\u0119tnie si\u0119 przyzna by\u015Bcie obaj musieli
     odsiedzie\u0107 tylko dwa lata."
   - Jak tam u ciebie z zaufaniem?
-  - Jestem ciekaw twojej decyzji hihihi...
+  - Jestem ciekaw twojej decyzji...
   textSpeed: 0.03
 --- !u!114 &297213584
 MonoBehaviour:
@@ -503,7 +503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &851748085
 RectTransform:
   m_ObjectHideFlags: 0
@@ -634,7 +634,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1307345206, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
+  m_Sprite: {fileID: -797789243, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

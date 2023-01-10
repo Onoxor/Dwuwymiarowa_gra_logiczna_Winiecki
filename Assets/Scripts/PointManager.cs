@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PointManager : MonoBehaviour
 {
     public static PointManager instance;
+    public string LevelName;
     public int altruism = 0;
     public int conformism = 0;
     public int rationalism = 0;
@@ -15,6 +16,14 @@ public class PointManager : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         instance = this;
+    }
+
+    public void Update()
+    {
+            if (Input.GetKey(KeyCode.Escape))
+            {
+            SceneManager.LoadScene(LevelName);
+            }
     }
     public void AddPoint(int spectrum)
     {

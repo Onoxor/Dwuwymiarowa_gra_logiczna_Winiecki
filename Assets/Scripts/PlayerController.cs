@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
 
+    SpriteRenderer spriteRenderer;
+
     Animator animator;
 
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
@@ -21,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         rb= GetComponent<Rigidbody2D>();
         animator= GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
@@ -44,6 +47,14 @@ public class PlayerController : MonoBehaviour
         else
         {
             animator.SetBool("IsMoving", false);
+        }
+
+        if(movementInput.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        } else if (movementInput.x > 0)
+        {
+            spriteRenderer.flipX = false;
         }
     }
 

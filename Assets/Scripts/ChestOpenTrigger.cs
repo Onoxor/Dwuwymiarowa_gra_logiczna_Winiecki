@@ -9,11 +9,6 @@ public class ChestOpenTrigger : MonoBehaviour
     public GameObject blockade1, blockade2;
     public Animator animator;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {

@@ -331,8 +331,8 @@ MonoBehaviour:
   - "Nie chcesz na to pozwoli\u0107 prawda?"
   - "Pami\u0119taj jednak, je\u015Bli b\u0119dziesz pr\xF3bowa\u0142 ich zatrzyma\u0107
     to b\u0119dziesz te\u017C musia\u0142 si\u0119 z nimi zmierzy\u0107."
-  - "Nie masz ze sob\u0105, \u017Cadnej broni tylko twoje r\u0119ce i spryt."
-  - "Wybierz lewe drzwi a sko\u0144czymy t\u0119 zabaw\u0119 i podsumujemy co uda\u0142o
+  - "Nie masz ze sob\u0105 \u017Cadnej broni, tylko twoje r\u0119ce i spryt."
+  - "Wybierz lewe drzwi, a sko\u0144czymy t\u0119 zabaw\u0119 i podsumujemy co uda\u0142o
     nam si\u0119 zebra\u0107."
   - Wybierz prawe i zaryzykuj wszystko...
   - "Decyzja nale\u017Cy do ciebie."
@@ -670,7 +670,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: 1307345206, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
+  m_Sprite: {fileID: -797789243, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1298,7 +1298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1697539762
 RectTransform:
   m_ObjectHideFlags: 0

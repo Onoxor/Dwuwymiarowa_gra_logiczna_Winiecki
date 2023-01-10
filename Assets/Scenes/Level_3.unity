@@ -288,7 +288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &165190318
 RectTransform:
   m_ObjectHideFlags: 0
@@ -425,20 +425,21 @@ MonoBehaviour:
   - "W ramach tego, \u017Ce ci\u0119 polubi\u0142em to nawet nie b\u0119d\u0119 kaza\u0142
     temu komu\u015B ze mn\u0105 paktowa\u0107."
   - (Raczej)
-  - "No, ale wracaj\u0105c."
+  - "No, ale wracaj\u0105c do zasad."
   - "Za prawymi drzwiami czeka spora sumka z\u0142otych monet."
   - "My\u015Bl\u0119, \u017Ce jak ten kto\u015B jutro na spacerze w lesie si\u0119
-    na nie przypadkiem natknie to nie b\u0119dzie narzeka\u0107."
-  - 'Ciekawostka, w 97% ludzie nie pytali czyje to po znalezieniu. '
-  - "No, a za drugimi drzwiami czeka co\u015B niesamowitego!"
-  - "Bardzo dawno temu przygotowywa\u0142em t\u0119 gr\u0119 wi\u0119c w sumie nie
+    na nie przypadkiem natknie, to nie b\u0119dzie narzeka\u0107."
+  - "Ciekawostka, w 97% ludzie nie pytali czyje to pieni\u0105dze po znalezieniu
+    ich. "
+  - "Za drugimi drzwiami natomiast, czeka co\u015B niesamowitego!"
+  - "Bardzo dawno temu przygotowywa\u0142em t\u0119 gr\u0119, wi\u0119c w sumie nie
     pami\u0119tam co tam tak naprawd\u0119 by\u0142o..."
-  - "Mo\u017Ce gdyby 3004571 poprzednik\xF3w nie by\u0142o takich chciwych to bym
+  - "Mo\u017Ce gdyby 3004571 poprzednik\xF3w nie by\u0142o takich chciwych, to bym
     pami\u0119ta\u0142..."
   - "Oczywi\u015Bcie to co tam si\u0119 znajduje r\xF3wnie\u017C wy\u015Blemy tojej
     bliskiej osobie."
-  - "No, tak czy siak musisz wybra\u0107!"
-  - "Ciekawe co to by\u0142o..."
+  - "Tak czy inaczej musisz wybra\u0107!"
+  - "Ciekawe, co to by\u0142o..."
   textSpeed: 0.03
 --- !u!114 &297213584
 MonoBehaviour:
@@ -641,7 +642,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1307345206, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
+  m_Sprite: {fileID: -797789243, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

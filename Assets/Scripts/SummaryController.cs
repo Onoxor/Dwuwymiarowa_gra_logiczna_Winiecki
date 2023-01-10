@@ -31,38 +31,38 @@ public class SummaryController : MonoBehaviour
 
         if (altruism > 0)
         {
-            UpdateText("Jesteœ Altruist¹. Nie wahasz siê zareagowæ wtedy, gdy mo¿esz pomóc innym. Przedk³adasz czyjeœ dobro ponad swoje w³asne, nawet jeœli mo¿e to nieœæ ze sob¹ powa¿ne konsekwencje. ");
+            UpdateText("Jesteœ Altruist¹. Nie wahasz siê zareagowæ wtedy, gdy mo¿esz pomóc innym. Przedk³adasz czyjeœ dobro ponad swoje w³asne, nawet jeœli mo¿e to nieœæ ze sob¹ powa¿ne konsekwencje. " + System.Environment.NewLine + System.Environment.NewLine);
         }
         else
         {
-            UpdateText("Jesteœ Egoist¹. Gdy masz wybór miêdzy szczêœciem swoim lub czyimœ, twoje zawsze bêdzie na pierwszym miejscu. Trafiaj¹c na dylemat zawsze najpierw zastanawiasz siê co ka¿de z mo¿liwych rozwi¹zañ da tobie. ");
+            UpdateText("Jesteœ Egoist¹. Gdy masz wybór miêdzy szczêœciem swoim lub czyimœ, twoje zawsze bêdzie na pierwszym miejscu. Trafiaj¹c na dylemat zawsze najpierw zastanawiasz siê co ka¿de z mo¿liwych rozwi¹zañ da tobie. " + System.Environment.NewLine + System.Environment.NewLine);
         }
 
         if(conformism > 0)
         {
-            UpdateText("Jesteœ Konformist¹. Nie narzucasz innym swojego zdania, wolisz dostosowaæ swoje do innych. Nie wy³amujesz siê ze schematu i gdy wiêkszoœæ osi¹ga cel w konkretny sposób, bêdziesz pod¹¿aæ ich œladem. ");
+            UpdateText("Jesteœ Konformist¹. Nie narzucasz innym swojego zdania, wolisz dostosowaæ swoje do innych. Nie wy³amujesz siê ze schematu i gdy wiêkszoœæ osi¹ga cel w konkretny sposób, bêdziesz pod¹¿aæ ich œladem. " + System.Environment.NewLine + System.Environment.NewLine);
         }
         else
         {
-            UpdateText("Jesteœ nonkonformist¹. Wytyczasz w³asne szlaki i zchodzisz z udeptanych œcie¿ek. Nie masz problemu z kwestionowaniem decyzji wiêkszoœci. Masz swoj¹ racjê i nie³atwo wp³yn¹æ na ciebie tak, by uleg³a ona zmianie. ");
+            UpdateText("Jesteœ nonkonformist¹. Wytyczasz w³asne szlaki i zchodzisz z udeptanych œcie¿ek. Nie masz problemu z kwestionowaniem decyzji wiêkszoœci. Masz swoj¹ racjê i nie³atwo wp³yn¹æ na ciebie tak, by uleg³a ona zmianie. " + System.Environment.NewLine + System.Environment.NewLine);
         }
 
         if(rationalism> 0)
         {
-            UpdateText("Jesteœ racjonalist¹. Analizujesz ryzyko i nie podejmujesz go jeœli nie masz pewnoœci sukcesu. Nie czujesz potrzeby sprawdzania swoich si³ tam gdzie wszyscy polegaj¹. ");
+            UpdateText("Jesteœ racjonalist¹. Analizujesz ryzyko i nie podejmujesz go jeœli nie masz pewnoœci sukcesu. Nie czujesz potrzeby sprawdzania swoich si³ tam gdzie wszyscy polegaj¹. " + System.Environment.NewLine + System.Environment.NewLine);
         }
         else
         {
-            UpdateText("Jesteœ empiryst¹. Nie uwierzysz w coœ dopóki samemu nie sprawdzisz. Doœwiadczenia innych mog¹ byæ pomocne, jednak to twoje jest dla ciebie najwa¿niejsze. Zapewne oparzysz siê wiele razy, lecz nie pozwolisz siê oszukaæ. ");
+            UpdateText("Jesteœ empiryst¹. Nie uwierzysz w coœ dopóki samemu nie sprawdzisz. Doœwiadczenia innych mog¹ byæ pomocne, jednak to twoje jest dla ciebie najwa¿niejsze. Zapewne oparzysz siê wiele razy, lecz nie pozwolisz siê oszukaæ. " + System.Environment.NewLine + System.Environment.NewLine);
         }
 
         if(courage> 0)
         {
-            UpdateText("Jesteœ odwa¿ny. Nie baczysz na strach i niebezpieczeñstwa. Jeœli chcesz coœ osi¹gn¹æ, bêdziesz przeæ naprzód tak d³ugo jak bêdzie trzeba. S³owa zw¹tpienia rzadko pojawiaj¹ siê na twoich ustach. ");
+            UpdateText("Jesteœ odwa¿ny. Nie baczysz na strach i niebezpieczeñstwa. Jeœli chcesz coœ osi¹gn¹æ, bêdziesz przeæ naprzód tak d³ugo jak bêdzie trzeba. S³owa zw¹tpienia rzadko pojawiaj¹ siê na twoich ustach. " + System.Environment.NewLine + System.Environment.NewLine + "Wciœnij Escape by powróciæ do menu...");
         }
         else
         {
-            UpdateText("Jesteœ tchórzliwy. Jeœli mo¿esz unikn¹æ niepotrzebnych niebezpieczeñstw, to zawsze z chêci¹ to zrobisz. Trudno nak³oniæ ciê do wyjœcia ze strefy w³asnego komfortu, nawet wtedy gdy coœ mo¿e zagra¿aæ innym ludziom. Wolisz nie wychylaæ siê i nie ingerowaæ w sprawy które nie musz¹ ciebie dotyczyæ. ");
+            UpdateText("Jesteœ tchórzliwy. Jeœli mo¿esz unikn¹æ niepotrzebnych niebezpieczeñstw, to zawsze z chêci¹ to zrobisz. Trudno nak³oniæ ciê do wyjœcia ze strefy w³asnego komfortu, nawet wtedy gdy coœ mo¿e zagra¿aæ innym ludziom. Wolisz nie wychylaæ siê i nie ingerowaæ w sprawy które nie musz¹ ciebie dotyczyæ. " + System.Environment.NewLine + System.Environment.NewLine + "Wciœnij Escape by powróciæ do menu...");
         }
 
 

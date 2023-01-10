@@ -328,14 +328,14 @@ MonoBehaviour:
   - "Zgodnie z uk\u0142adem po zako\u0144czeniu gry odejm\u0119 te 200 lat od wyroku."
   - ...
   - "Ciekawi ci\u0119 dlaczego tylko 5% daje rad\u0119?"
-  - "My\u015Bl\u0119, \u017Ce to po prostu dlatego \u017Ce fizyczne mo\u017Cliwo\u015Bci
+  - "My\u015Bl\u0119, \u017Ce to po prostu dlatego, \u017Ce fizyczne mo\u017Cliwo\u015Bci
     zmar\u0142ych drastycznie malej\u0105 z czasem."
   - "A nie zawsze gram w gr\u0119 z nowym narybkiem."
   - "Mog\u0142e\u015B o tym nie wiedzie\u0107 a i tak spr\xF3bowa\u0142e\u015B."
-  - "\u017Bycie nie jest nasze jak nie pr\xF3bujemy go w\u0142asnymi r\u0119kami
+  - "\u017Bycie nie jest nasze, jak nie pr\xF3bujemy go w\u0142asnymi r\u0119kami
     co?"
   - "Mia\u0142oby to wi\u0119kszy sens gdyby\u015Bmy \u017Cyli..."
-  - Ale no rozumiesz przekaz.
+  - Ale rozumiesz przekaz.
   - "Ciekawe czy b\u0119dziesz takim si\u0142aczem te\u017C w nast\u0119pnym pokoju."
   - Powodzenia.
   textSpeed: 0.03
@@ -624,7 +624,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1307345206, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
+  m_Sprite: {fileID: -797789243, guid: 632880ad1c20dd3459db1a10c8490953, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -668,7 +668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1214267105
 RectTransform:
   m_ObjectHideFlags: 0
@@ -753,6 +753,7 @@ GameObject:
   - component: {fileID: 1274672471}
   - component: {fileID: 1274672470}
   - component: {fileID: 1274672469}
+  - component: {fileID: 1274672473}
   m_Layer: 0
   m_Name: Lucek
   m_TagString: Untagged
@@ -857,6 +858,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1274672473
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274672468}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1}
+  serializedVersion: 2
+  m_Radius: 0.8
 --- !u!1 &1330643867
 GameObject:
   m_ObjectHideFlags: 0
